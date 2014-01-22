@@ -9,3 +9,13 @@ I've just made some small CSS changes, all to grayscale colors. Images automatic
 ##Demo
 
 I'm using this theme on my [blog](http://blog.semeano.me), you can check it out.
+
+
+##Installation
+
+Copy it to your themes folder:
+
+    cd /path/to/ghost/content/themes
+    sudo git clone https://github.com/semeano/CasperGray.git
+
+Restart Ghost and you should be able to see the theme option on general settings.
