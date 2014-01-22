@@ -727,6 +727,10 @@ img:hover {
     color: #505050;
 }
 
+.poweredby {
+   display: none;
+}
+
 .poweredby .icon-ghost {
     font-weight: 700;
     text-decoration: none;
