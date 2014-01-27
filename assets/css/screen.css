@@ -622,7 +622,7 @@ img:hover {
     font-size: 1.8rem;
     display: inline-block;
     margin: 1.4rem 1.6rem 1.6rem 0;
-    color: #CDCDCD;
+    color: #AAA;
     text-decoration: none;
 }
 
@@ -713,13 +713,13 @@ img:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #CDCDCD;
+    color: #AAA;
     text-align: center;
     background: #EEE;
 }
 
 .site-footer a {
-    color: #CDCDCD;
+    color: #AAA;
     text-decoration: underline;
 }
 
