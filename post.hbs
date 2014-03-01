@@ -21,7 +21,7 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
-            <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{tags prefix="on " separator=" | "}}</span>
+            <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{tags prefix="on "}}</span>
 
             <h1 class="post-title">{{{title}}}</h1>
 
@@ -38,17 +38,20 @@
 
                 <section class="share">
                     <h4>Share this post</h4>
-                    <a class="icon-twitter" href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
+                    <a class="icon-twitter-link" href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
                         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                        <span class="hidden">Twitter</span>
+                        <i class="fa fa-twitter"></i>
                     </a>
-                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                    <a class="icon-facebook-link" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
                         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                        <span class="hidden">Facebook</span>
+                        <i class="fa fa-facebook-square"></i>
                     </a>
-                    <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
+                    <a class="icon-google-plus-link" href="https://plus.google.com/share?url={{url absolute="true"}}"
                        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                        <span class="hidden">Google+</span>
+                        <i class="fa fa-google-plus-square"></i>
+                    </a>
+                    <a class="icon-linkedin-link" href="http://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{title}}&source=" onclick="window.open(this.href + window.location.host, 'linkedin-share', 'width=490,height=500');return false;">
+                        <i class="fa fa-linkedin-square"></i>
                     </a>
                 </section>
 
