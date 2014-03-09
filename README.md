@@ -6,11 +6,6 @@ Based on [Casper](https://github.com/TryGhost/Casper), the default theme for [Gh
 I've just made some small CSS changes, all to grayscale colors. Images automatically converted to grayscale, but you can see in colors if you put your mouse cursor over them.
 
 
-##Demo
-
-I'm using this theme on my [blog](http://blog.semeano.me), you can check it out.
-
-
 ##Installation
 
 Copy it to your themes folder:
