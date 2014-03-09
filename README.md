@@ -23,7 +23,7 @@ Restart Ghost and you should be able to see the theme option on general settings
 
 ##Copyright & Licence
 
-Copyright (c) 2014 Iiro Jäppinen - Released under The MIT License.
+Copyright (c) 2014 Pedro Semeano - Released under The MIT License.
 
 Copyright (c) 2014 Ghost Foundation - Released under The MIT License.
 
